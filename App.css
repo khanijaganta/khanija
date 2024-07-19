@@ -1,0 +1,25 @@
+.accordion-item{
+  
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 192, 203);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.accordion-item:hover {
+  border-left: 5px solid rgb(43, 226, 141);
+  transition-duration: 1s;
+  
+
+}
+.accordion-opened {
+
+  border-left: 5px solid rgb(0, 255, 191);
+  transition-duration: 1s;
+}
+.accordion-title{
+  display: flex;
+  justify-content: space-between;
+}
